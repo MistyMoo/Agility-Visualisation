@@ -18,14 +18,14 @@ var div = d3.select("body").append("div")
 
 var jumpTip = 0;
 var svg = d3.select("body").append("svg")
-                .attr("height","100%")
-                .attr("width","100%");
+          .attr("height","600")
+          .attr("width","1150");
 
 var img = svg.selectAll("image").data([0]);
 
 img.enter().append("svg:image")
-          .attr("href","file:///C:/Users/Allison/Documents/agility_visualisation/image_for_viz.jpg")
-          .attr("x","60")
+          .attr("href","file:///C:/Users/Allison/Documents/GitHub/Agility-Visualisation/image_for_viz.jpg")
+          .attr("x","-100")
           .attr("y","60")
           .attr("width","1150")
           .attr("height","500");
